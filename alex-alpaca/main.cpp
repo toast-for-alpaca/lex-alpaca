@@ -35,5 +35,7 @@ int main()
     cout << nfa->matches("acdddad") << endl;
     cout << nfa->matches("acddda") << endl;
 
+    SAFE_RELEASE(nfa)
+    
     return 0;
 }
